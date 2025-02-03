@@ -122,7 +122,7 @@ class SUMapHomePageState extends State<SUMapHomePage> {
 
   Future<Map<String, dynamic>?> _getPlaceDetails(String placeId) async {
     const apiKey =
-        'AIzaSyDZr2kKyRq8_ZXUaIYEN39aaw3sOsSqv6A'; // ใส่ API Key ของคุณที่นี่
+        ''; // ใส่ API Key ของคุณที่นี่
     final url =
         'https://maps.googleapis.com/maps/api/place/details/json?place_id=$placeId&key=$apiKey';
 
